@@ -3,6 +3,11 @@ body{
     margin: 0%;
     font-family: GeneralSans-Regular;
     color: white;
+    background-color: black;
+}
+::selection{
+    background-color: tomato;
+    color: white;
 }
 
 html, body {
@@ -30,7 +35,7 @@ html, body {
 
   .navbar{
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 6;
     grid-column-start: 4;
     grid-column-end: 74;
     background-color: black;
@@ -38,7 +43,8 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    border-bottom: white 2px solid;
+    border-left: white 2px solid;
   }
 
   li{
@@ -59,4 +65,13 @@ html, body {
   color: white;
   border-radius: 17px;
   font-size: 15px;
+}
+
+.hero{
+    grid-row-start: 6;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 74  ;
+    border: 2px solid white;  
+    color: white;
 }
