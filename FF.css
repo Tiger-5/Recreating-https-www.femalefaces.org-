@@ -53,11 +53,11 @@ html, body {
 
   .logo{
     font-size: 35px;
-    padding-left: 50px;
+    padding-left: 7px;
   }
 
 .Supbut{
-  margin-right: 30px;
+  margin-right: 100px;
   height: 33px;
   width: 100px;
   background-color: black;
@@ -109,3 +109,4 @@ html, body {
   word-wrap: break-word;
   width: 450px;
 }
+
