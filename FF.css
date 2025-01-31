@@ -77,7 +77,6 @@ html, body {
   }
 
 .Supbut{
-  margin-right: 100px;
   height: 33px;
   width: 100px;
   background-color: black;
@@ -85,6 +84,8 @@ html, body {
   color: white;
   border-radius: 17px;
   font-size: 15px;
+  position: relative;
+  right: 15%;
 }
 
 .container3{
@@ -121,7 +122,7 @@ html, body {
   align-items: center;
   justify-content: start;
   padding-left: 5px;
-  border-right: 1px solid white;
+  border-right: 2px solid white;
 }
 
 .heroP{
@@ -148,3 +149,23 @@ html, body {
   margin-right: 30%;
 }
 
+.container6{
+  grid-row-start: 28;  
+  grid-row-end: 37;   
+  grid-column-start: 4;
+  grid-column-end: 74;
+  border: 2px solid white;  
+  color: white;
+  border-top: none;
+  display: flex;
+  align-items: center; 
+  justify-content: start;
+  padding-left: 5px;
+}
+
+.selh1{
+  font-family: GeneralSans-Regular;
+  font-size: 75px;
+  margin-top: 120px;
+  letter-spacing: 5px;
+}
